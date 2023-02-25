@@ -14,9 +14,9 @@ int main(){                                                         // cannot us
   
     // cout<<"----------------==============-------"<<endl;
 
-    // cout<<*(Arr++)<<endl;           // {0,10,20,30}  Arr = 0 then ++ Arr+next thats 10 check printing Arr below line
+    // cout<<*(Arr++)<<endl;              // {0,10,20,30}  Arr = 0 then ++ Arr+next thats 10 check printing Arr below line
     // cout<<*Arr<<endl;                   // Shows Current  Arr position is 10 as above said
-    // cout<<*(++Arr)<<endl;        // First incremented 2 positions then printed Arr - 0,10 = Arr
+    // cout<<*(++Arr)<<endl;           // First incremented 2 positions then printed Arr - 0,10 = Arr
 
 
     return 0;
