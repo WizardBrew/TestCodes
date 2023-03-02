@@ -11,7 +11,7 @@ int main(){                                                            // cannot
     cout<<"The Value of Marks is now "<<*(Arr+2)<<endl;
     cout<<"The Value of Marks is now "<<*(Arr+3)<<endl;
   
-    // cout<<"----------------==============-------"<<endl;
+    // cout<<" ----------------==============------- "<<endl;
 
     // cout<<*(Arr++)<<endl;                // {0,10,20,30}  Arr = 0 then ++ Arr+next thats 10 check printing Arr below line
     // cout<<*Arr<<endl;                   // Shows Current  Arr position is 10 as above said
