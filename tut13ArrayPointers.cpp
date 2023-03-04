@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
-                                                                        // Arrays Pointers are Different than Usual Pointer the Address is Array itself 
-int main(){                                                            // cannot use &Marks  instead assign new variable Arr = Marks; Arr++ o
-                                                                      //  *Arr   if Marks[0];    *(Arr+i) if Marks[1]  it shows value 
-    int Marks[] = {0,10,20,30,40,50,60,70,80};
+                                                                     // Arrays Pointers are Different than Usual Pointer the Address is Array itself 
+int main(){                                                          // cannot use &Marks  instead assign new variable Arr = Marks; Arr++ o
+                                                                     //  *Arr   if Marks[0];    *(Arr+i) if Marks[1]  it shows value 
+    int Marks[] = {0,10,20,30,40,50,60,70,80,90};
     int* Arr = Marks;
     cout<<"The Value of Marks is now "<<Arr<<endl;
     cout<<"The Value of Marks is now "<<*Arr<<endl;
